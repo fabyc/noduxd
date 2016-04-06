@@ -271,11 +271,11 @@ msgstr ""
 
 msgctxt "field:account.configuration,tax_rounding:"
 msgid "Tax Rounding"
-msgstr "Redondeo de impuesto"
+msgstr "Redondeo de impuestos"
 
 msgctxt "field:account.configuration,tax_roundings:"
 msgid "Tax Roundings"
-msgstr "Redondeos de impuesto"
+msgstr "Redondeos de impuestos"
 
 msgctxt "field:account.configuration.tax_rounding,company:"
 msgid "Company"
@@ -999,7 +999,7 @@ msgstr "Utilice para ordenar las líneas ascendentemente"
 
 msgctxt "model:account.configuration.tax_rounding,name:"
 msgid "Account Configuration Tax Rounding"
-msgstr "Configuración contable de redondeo de impuesto"
+msgstr "Configuración contable del redondeo de impuestos"
 
 msgctxt "model:account.invoice,name:"
 msgid "Invoice"
@@ -1535,11 +1535,11 @@ msgstr "Miércoles"
 
 msgctxt "view:account.configuration.tax_rounding:"
 msgid "Account Configuration Tax Rounding"
-msgstr "Configuración contable de redondeo de impuesto"
+msgstr "Configuración contable del redondeo de impuestos"
 
 msgctxt "view:account.configuration.tax_rounding:"
 msgid "Account Configuration Tax Roundings"
-msgstr "Configuración contable de redondeos de impuesto"
+msgstr "Configuración contable de los redondeos de impuestos"
 
 msgctxt "view:account.invoice.credit.start:"
 msgid "Are you sure to credit those/this invoice(s)?"
