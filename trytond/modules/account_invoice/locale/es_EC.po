@@ -339,7 +339,7 @@ msgstr "Cuenta"
 
 msgctxt "field:account.invoice,accounting_date:"
 msgid "Accounting Date"
-msgstr "Fecha de contabilización"
+msgstr "Fecha efectiva de asiento"
 
 msgctxt "field:account.invoice,amount_to_pay:"
 msgid "Amount to Pay"
