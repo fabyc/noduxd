@@ -1360,7 +1360,7 @@ msgstr "Tipo"
 
 msgctxt "field:account.journal,update_posted:"
 msgid "Allow updating posted moves"
-msgstr "Permitir actualización de asientos contablizados"
+msgstr "Permitir actualización de asientos contabilizados"
 
 msgctxt "field:account.journal,view:"
 msgid "View"
