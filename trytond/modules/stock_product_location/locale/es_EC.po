@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -49,18 +49,6 @@ msgstr "Modificado por usuario"
 msgctxt "model:stock.product.location,name:"
 msgid "Product Location"
 msgstr "Ubicación de producto"
-
-msgctxt "view:product.product:"
-msgid "Default Locations"
-msgstr "Ubicaciones por defecto"
-
-msgctxt "view:product.product:"
-msgid "Product Location"
-msgstr "Ubicación de producto"
-
-msgctxt "view:product.product:"
-msgid "Product Locations"
-msgstr "Ubicaciones de producto"
 
 msgctxt "view:stock.product.location:"
 msgid "Product Location"

@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -22,7 +22,7 @@ msgstr "%s (%s) ha aceptado esta invitación:\n"
 
 msgctxt "error:calendar.event.attendee:"
 msgid ""
-"%s (%s) has declined this invitattion:\n"
+"%s (%s) has declined this invitation:\n"
 "\n"
 msgstr "%s (%s) ha declinado esta invitación:\n"
 

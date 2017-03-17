@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -60,7 +60,7 @@ msgstr "Transportistas"
 
 msgctxt "model:res.group,name:group_carrier_admin"
 msgid "Carrier Administration"
-msgstr "Administración de Transportista"
+msgstr "Administración de Transportistas"
 
 msgctxt "selection:carrier,carrier_cost_method:"
 msgid "Product Price"

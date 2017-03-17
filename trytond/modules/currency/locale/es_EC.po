@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -11,7 +11,7 @@ msgid "The currency rate must greater than or equal to 0"
 msgstr "La tasa de cambio de la moneda debe ser mayor o igual a 0"
 
 msgctxt "error:currency.currency:"
-msgid "Invalid grouping \"%(grouping)s\" on  currency \"%(currency)s\"."
+msgid "Invalid grouping \"%(grouping)s\" on currency \"%(currency)s\"."
 msgstr "Agrupación \"%(grouping)s\" en la moneda \"%(currency)s\" no es válida."
 
 msgctxt "error:currency.currency:"
@@ -166,7 +166,7 @@ msgstr "Moneda"
 
 msgctxt "model:currency.currency,name:aed"
 msgid "UAE Dirham"
-msgstr "Dírham de los Emiratos Árabes Unidos"
+msgstr "Dirham de los Emiratos Árabes Unidos"
 
 msgctxt "model:currency.currency,name:afn"
 msgid "Afghani"
@@ -754,7 +754,7 @@ msgstr "Dólar de Trinidad y Tobago"
 
 msgctxt "model:currency.currency,name:twd"
 msgid "New Taiwan Dollar"
-msgstr "Nuevo dólar taiwanés"
+msgstr "nuevo Dólar taiwanés"
 
 msgctxt "model:currency.currency,name:tzs"
 msgid "Tanzanian Shilling"
@@ -774,11 +774,11 @@ msgstr "Dólar estadounidense"
 
 msgctxt "model:currency.currency,name:usn"
 msgid "US Dollar (Next day)"
-msgstr "Dólar estadounidense (siguiente día)"
+msgstr "Dólar estadounidense (dia siguiente)"
 
 msgctxt "model:currency.currency,name:uss"
 msgid "US Dollar (Same day)"
-msgstr "Dólar estadounidense (mismo día)"
+msgstr "Dólar estadounidense (mismo dia)"
 
 msgctxt "model:currency.currency,name:uyi"
 msgid "Uruguay Peso en Unidades Indexadas"
@@ -810,7 +810,7 @@ msgstr "Tala"
 
 msgctxt "model:currency.currency,name:xaf"
 msgid "CFA Franc BEAC"
-msgstr "Franco CFA BEAC"
+msgstr "franco CFA BEAC"
 
 msgctxt "model:currency.currency,name:xag"
 msgid "Silver"
@@ -854,7 +854,7 @@ msgstr "Franco UIC"
 
 msgctxt "model:currency.currency,name:xof"
 msgid "CFA Franc BCEAO"
-msgstr "Franco CFA BCEAO"
+msgstr "franco CFA BCEAO"
 
 msgctxt "model:currency.currency,name:xpd"
 msgid "Palladium"

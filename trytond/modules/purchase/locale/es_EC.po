@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -62,6 +62,18 @@ msgctxt "field:account.invoice,purchases:"
 msgid "Purchases"
 msgstr "Compras"
 
+msgctxt "field:product.product,product_suppliers:"
+msgid "Suppliers"
+msgstr "Proveedores"
+
+msgctxt "field:product.product,purchasable:"
+msgid "Purchasable"
+msgstr "Comprable"
+
+msgctxt "field:product.product,purchase_uom:"
+msgid "Purchase UOM"
+msgstr "UdM de compra"
+
 msgctxt "field:product.template,product_suppliers:"
 msgid "Suppliers"
 msgstr "Proveedores"
@@ -91,8 +103,8 @@ msgid "Invoice Method"
 msgstr "Método de facturación"
 
 msgctxt "field:purchase.configuration,purchase_sequence:"
-msgid "Purchase Reference Sequence"
-msgstr "Secuencia de referencia de compra"
+msgid "Purchase Sequence"
+msgstr "Secuencia de compra"
 
 msgctxt "field:purchase.configuration,rec_name:"
 msgid "Name"
@@ -132,7 +144,7 @@ msgstr "Recrear movimientos"
 
 msgctxt "field:purchase.line,amount:"
 msgid "Amount"
-msgstr "Importe"
+msgstr "Subtotal"
 
 msgctxt "field:purchase.line,create_date:"
 msgid "Create Date"
@@ -358,13 +370,13 @@ msgctxt "field:purchase.product_supplier,currency:"
 msgid "Currency"
 msgstr "Moneda"
 
-msgctxt "field:purchase.product_supplier,delivery_time:"
-msgid "Delivery Time"
-msgstr "Tiempo de Entrega"
-
 msgctxt "field:purchase.product_supplier,id:"
 msgid "ID"
 msgstr "ID"
+
+msgctxt "field:purchase.product_supplier,lead_time:"
+msgid "Lead Time"
+msgstr "Tiempo de espera"
 
 msgctxt "field:purchase.product_supplier,name:"
 msgid "Name"
@@ -502,6 +514,10 @@ msgctxt "field:purchase.purchase,moves:"
 msgid "Moves"
 msgstr "Movimientos"
 
+msgctxt "field:purchase.purchase,number:"
+msgid "Number"
+msgstr "Número"
+
 msgctxt "field:purchase.purchase,party:"
 msgid "Party"
 msgstr "Tercero"
@@ -541,10 +557,6 @@ msgstr "Guías de remisión"
 msgctxt "field:purchase.purchase,state:"
 msgid "State"
 msgstr "Estado"
-
-msgctxt "field:purchase.purchase,supplier_reference:"
-msgid "Supplier Reference"
-msgstr "Referencia de proveedor"
 
 msgctxt "field:purchase.purchase,tax_amount:"
 msgid "Tax"
@@ -646,6 +658,10 @@ msgctxt "field:purchase.purchase-recreated-account.invoice,write_uid:"
 msgid "Write User"
 msgstr "Modificado por usuario"
 
+msgctxt "field:stock.location,supplier_return_location:"
+msgid "Supplier Return"
+msgstr "Devolución a proveedor"
+
 msgctxt "field:stock.move,purchase:"
 msgid "Purchase"
 msgstr "Compra"
@@ -693,13 +709,13 @@ msgid "The selected moves will be recreated. The other ones will be ignored."
 msgstr ""
 "Los movimientos seleccionados serán recreados. Los otros serán ignorados."
 
-msgctxt "help:purchase.product_supplier,delivery_time:"
-msgid "In number of days"
-msgstr "En número de días"
-
 msgctxt "help:purchase.product_supplier.price,quantity:"
 msgid "Minimal quantity"
 msgstr "Cantidad mínima"
+
+msgctxt "help:stock.location,supplier_return_location:"
+msgid "If empty the Storage location is used"
+msgstr "Si se deja vacío, se utilizará la ubicación de almacenamiento"
 
 msgctxt "model:ir.action,name:act_invoice_form"
 msgid "Invoices"
@@ -753,10 +769,6 @@ msgctxt "model:ir.action,name:wizard_shipment_handle_exception"
 msgid "Handle Shipment Exception"
 msgstr "Gestionar excepción de envío"
 
-msgctxt "model:ir.action.act_window.domain,name:"
-msgid "Processing"
-msgstr "En Proceso"
-
 msgctxt "model:ir.action.act_window.domain,name:act_purchase_form_domain_all"
 msgid "All"
 msgstr "Todo"
@@ -770,6 +782,11 @@ msgctxt ""
 "model:ir.action.act_window.domain,name:act_purchase_form_domain_draft"
 msgid "Draft"
 msgstr "Borrador"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_processing"
+msgid "Processing"
+msgstr "En Proceso"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_purchase_form_domain_quotation"
@@ -868,71 +885,63 @@ msgctxt "model:res.group,name:group_purchase_admin"
 msgid "Purchase Administrator"
 msgstr "Administrador de Compras"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Amount"
-msgstr "Importe"
+msgstr "Subtotal"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Date:"
 msgstr "Fecha:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Description"
 msgstr "Descripción"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Description:"
 msgstr "Descripción:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Draft Purchase Order"
 msgstr "Orden de compra en borrador"
 
-msgctxt "odt:purchase.purchase:"
-msgid "E-Mail:"
-msgstr "Email:"
-
-msgctxt "odt:purchase.purchase:"
-msgid "Phone:"
-msgstr "Teléfono:"
-
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Purchase Order N°:"
 msgstr "Orden de compra Nº:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Quantity"
 msgstr "Cantidad"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
+msgid "Reference:"
+msgstr "Referencia:"
+
+msgctxt "report:purchase.purchase:"
 msgid "Request for Quotation N°:"
 msgstr "Solicitud de cotización Nº:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Taxes"
 msgstr "Impuestos"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Taxes:"
 msgstr "Impuestos:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Total (excl. taxes):"
 msgstr "Total (sin impuestos):"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Total:"
 msgstr "Total:"
 
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "Unit Price"
 msgstr "Precio unitario"
 
-msgctxt "odt:purchase.purchase:"
-msgid "VAT Number:"
-msgstr "CI/RUC:"
-
-msgctxt "odt:purchase.purchase:"
+msgctxt "report:purchase.purchase:"
 msgid "VAT:"
 msgstr "CI/RUC:"
 
@@ -1104,6 +1113,10 @@ msgctxt "view:purchase.line:"
 msgid "Purchase Lines"
 msgstr "Líneas de compra"
 
+msgctxt "view:purchase.line:"
+msgid "Taxes"
+msgstr "Impuestos"
+
 msgctxt "view:purchase.product_supplier.price:"
 msgid "Product Supplier Price"
 msgstr "Precio del proveedor del producto"
@@ -1141,10 +1154,6 @@ msgid "Handle Shipment Exception"
 msgstr "Gestionar excepción de envío"
 
 msgctxt "view:purchase.purchase:"
-msgid "Invoices"
-msgstr "Facturas"
-
-msgctxt "view:purchase.purchase:"
 msgid "Other Info"
 msgstr "Información adicional"
 
@@ -1164,10 +1173,6 @@ msgctxt "view:purchase.purchase:"
 msgid "Quote"
 msgstr "Cotizar"
 
-msgctxt "view:purchase.purchase:"
-msgid "Shipments"
-msgstr "Guías de remisión"
-
 msgctxt "view:stock.move:"
 msgid "Moves"
 msgstr "Movimientos"
@@ -1180,18 +1185,10 @@ msgctxt "wizard_button:purchase.handle.invoice.exception,ask,handle:"
 msgid "OK"
 msgstr "Aceptar"
 
-msgctxt "wizard_button:purchase.handle.invoice.exception,ask,handle:"
-msgid "Ok"
-msgstr "Aceptar"
-
 msgctxt "wizard_button:purchase.handle.shipment.exception,ask,end:"
 msgid "Cancel"
 msgstr "Cancelar"
 
 msgctxt "wizard_button:purchase.handle.shipment.exception,ask,handle:"
 msgid "OK"
-msgstr "Aceptar"
-
-msgctxt "wizard_button:purchase.handle.shipment.exception,ask,handle:"
-msgid "Ok"
 msgstr "Aceptar"

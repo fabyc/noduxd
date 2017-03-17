@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -86,10 +86,6 @@ msgctxt "field:production,bom:"
 msgid "BOM"
 msgstr "LDM"
 
-msgctxt "field:production,code:"
-msgid "Code"
-msgstr "Código"
-
 msgctxt "field:production,company:"
 msgid "Company"
 msgstr "Empresa"
@@ -121,6 +117,10 @@ msgstr "Entradas"
 msgctxt "field:production,location:"
 msgid "Location"
 msgstr "Ubicación"
+
+msgctxt "field:production,number:"
+msgid "Number"
+msgstr "Número"
 
 msgctxt "field:production,outputs:"
 msgid "Outputs"
@@ -574,7 +574,7 @@ msgstr "Cancelada"
 
 msgctxt "selection:production,state:"
 msgid "Done"
-msgstr "Finalizada"
+msgstr "Finalizado"
 
 msgctxt "selection:production,state:"
 msgid "Draft"
@@ -677,6 +677,10 @@ msgid "Productions"
 msgstr "Producciones"
 
 msgctxt "view:production:"
+msgid "Reset to BOM"
+msgstr "Restablecer a LDM"
+
+msgctxt "view:production:"
 msgid "Run"
 msgstr "Ejecutar"
 
@@ -686,10 +690,6 @@ msgstr "En Espera"
 
 msgctxt "wizard_button:production.assign,failed,end:"
 msgid "OK"
-msgstr "Aceptar"
-
-msgctxt "wizard_button:production.assign,failed,end:"
-msgid "Ok"
 msgstr "Aceptar"
 
 msgctxt "wizard_button:production.assign,failed,force:"
@@ -702,10 +702,6 @@ msgstr "Cancelar"
 
 msgctxt "wizard_button:production.bom.tree.open,start,tree:"
 msgid "OK"
-msgstr "Aceptar"
-
-msgctxt "wizard_button:production.bom.tree.open,start,tree:"
-msgid "Ok"
 msgstr "Aceptar"
 
 msgctxt "wizard_button:production.bom.tree.open,tree,end:"

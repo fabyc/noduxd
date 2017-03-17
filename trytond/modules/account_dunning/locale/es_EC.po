@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -261,6 +261,10 @@ msgstr "Realizado"
 msgctxt "selection:account.dunning,state:"
 msgid "Draft"
 msgstr "Borrador"
+
+msgctxt "view:account.configuration:"
+msgid "Dunning"
+msgstr "Cobranzas"
 
 msgctxt "view:account.dunning.create.start:"
 msgid "Create Dunning"

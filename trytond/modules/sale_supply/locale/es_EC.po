@@ -1,6 +1,10 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,supply_on_sale:"
+msgid "Supply On Sale"
+msgstr "Provisión en venta"
 
 msgctxt "field:product.template,supply_on_sale:"
 msgid "Supply On Sale"

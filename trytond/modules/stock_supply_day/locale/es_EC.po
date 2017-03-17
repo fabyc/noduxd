@@ -1,18 +1,18 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "field:purchase.product_supplier,weekdays:"
 msgid "Week Days"
-msgstr "Días de la semana"
+msgstr "Días de Semana"
 
 msgctxt "field:purchase.product_supplier.day,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha de Creación"
 
 msgctxt "field:purchase.product_supplier.day,create_uid:"
 msgid "Create User"
-msgstr "Creado por usuario"
+msgstr "Creado por Usuario"
 
 msgctxt "field:purchase.product_supplier.day,id:"
 msgid "ID"
@@ -28,19 +28,19 @@ msgstr "Nombre"
 
 msgctxt "field:purchase.product_supplier.day,weekday:"
 msgid "Week Day"
-msgstr "Día de la semana"
+msgstr "Día de Semana"
 
 msgctxt "field:purchase.product_supplier.day,write_date:"
 msgid "Write Date"
-msgstr "Fecha de modificación"
+msgstr "Fecha de Modificación"
 
 msgctxt "field:purchase.product_supplier.day,write_uid:"
 msgid "Write User"
-msgstr "Modificado por usuario"
+msgstr "Modificado por Usuario"
 
 msgctxt "model:purchase.product_supplier.day,name:"
 msgid "Product Supplier Day"
-msgstr "Día del proveedor del producto"
+msgstr "Día de Proveedor del Producto"
 
 msgctxt "selection:purchase.product_supplier.day,weekday:"
 msgid "Friday"
@@ -72,8 +72,4 @@ msgstr "Miércoles"
 
 msgctxt "view:purchase.product_supplier.day:"
 msgid "Week Day"
-msgstr "Día de la semana"
-
-msgctxt "view:purchase.product_supplier:"
-msgid "Week Days"
-msgstr "Días de la semana"
+msgstr "Día de Semana"
